@@ -1,7 +1,4 @@
-// For a detailed explanation regarding each configuration property, visit:
-// https://jestjs.io/docs/en/configuration.html
-
 module.exports = {
-  // testRunner: require.resolve('jest-circus/runner'),
+  testRunner: require.resolve('jest-circus/runner'),
   testEnvironment: "node"
 };
