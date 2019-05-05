@@ -1,6 +1,7 @@
 
-describe('funky-88.test', () => {
-    test('funky-88', async () => {
+const { patched } = require('graceful-fs')
+describe('funky-88 ' + patched, () => {
+    test('funky-88', () => {
         expect(1).toEqual(1);
     });
 });
