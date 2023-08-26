@@ -6,7 +6,7 @@
   "dependencies": {
     "graceful-fs": "^4.1.11",
     "jest": "^24.8.0",
-    "jest-circus": "^24.8.0"
+    "jest-circus": "^29.0.0"
   },
   "scripts": {
     "test": "node --expose-gc ./node_modules/.bin/jest --logHeapUsage --runInBand funky",
